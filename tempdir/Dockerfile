@@ -4,5 +4,5 @@ RUN pip install ipapi
 COPY  ./templates /home/myapp/templates/
 COPY  ./static /home/myapp/static/
 COPY  server.py /home/myapp/
-EXPOSE 8080
+EXPOSE 5050
 CMD python3 /home/myapp/server.py
